@@ -21,6 +21,7 @@ namespace product.stock.api
             {
                 Id = model.Id,
                 Description = model.Description,
+                Price = model.Price,
                 Quantity = model.Quantity,
                 Unit = model.Unit,
                 Category = model.Category,
@@ -52,6 +53,7 @@ namespace product.stock.api
             {
                 Id = viewModel.Id,
                 Description = viewModel.Description,
+                Price = viewModel.Price,
                 Quantity = viewModel.Quantity,
                 Unit = viewModel.Unit,
                 Category = viewModel.Category,
