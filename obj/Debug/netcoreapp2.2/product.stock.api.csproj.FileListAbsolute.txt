@@ -1,7 +1,3 @@
-C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.RazorAssemblyInfo.cache
-C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.RazorAssemblyInfo.cs
-C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.AssemblyInfoInputs.cache
-C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.AssemblyInfo.cs
 C:\_projects\personal\net\product.stock.api\bin\Debug\netcoreapp2.2\appsettings.Development.json
 C:\_projects\personal\net\product.stock.api\bin\Debug\netcoreapp2.2\appsettings.json
 C:\_projects\personal\net\product.stock.api\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
@@ -11,9 +7,13 @@ C:\_projects\personal\net\product.stock.api\bin\Debug\netcoreapp2.2\product.stoc
 C:\_projects\personal\net\product.stock.api\bin\Debug\netcoreapp2.2\product.stock.api.dll
 C:\_projects\personal\net\product.stock.api\bin\Debug\netcoreapp2.2\product.stock.api.pdb
 C:\_projects\personal\net\product.stock.api\bin\Debug\netcoreapp2.2\product.stock.api.xml
+C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.csprojAssemblyReference.cache
+C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.RazorAssemblyInfo.cache
+C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.RazorAssemblyInfo.cs
+C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.AssemblyInfoInputs.cache
+C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.AssemblyInfo.cs
 C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.RazorTargetAssemblyInfo.cache
 C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.dll
 C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.xml
 C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.pdb
 C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.genruntimeconfig.cache
-C:\_projects\personal\net\product.stock.api\obj\Debug\netcoreapp2.2\product.stock.api.csprojAssemblyReference.cache
