@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>fabricasw.camara.registro.api</name>
+    </assembly>
+    <members>
+        <member name="T:fabricasw.camara.registro.api.RegistroController">
+            <summary>
+            Controlador da API de Registros de Serviços
+            </summary>
+        </member>
+        <member name="F:fabricasw.camara.registro.api.RegistroController._service">
+            <summary>
+            Camada de Serviços de Registro
+            </summary>
+        </member>
+        <member name="M:fabricasw.camara.registro.api.RegistroController.#ctor(fabricasw.camara.registro.api.RegistroService)">
+            <summary>
+            Construtor padrão para iniciar a API
+            </summary>
+            <param name="service">Camada de Serviços de Registro</param>        
+        </member>
+        <member name="M:fabricasw.camara.registro.api.RegistroController.Insert(fabricasw.camara.registro.api.RegistroVM)">
+            <summary>
+            Insere um novo registro de serviço
+            </summary>
+            <param name="viewModel">Modelo de Registro de serviço</param>
+            <returns>Insere um novo registro de serviço</returns>
+            <response code="200">OK</response>
+        </member>
+        <member name="M:fabricasw.camara.registro.api.RegistroController.GetAll">
+            <summary>
+            Lista todos os registros de serviços
+            </summary>
+            <returns>Retorna todos os registros de serviços</returns>
+            <response code="200">OK</response>
+        </member>
+        <member name="M:fabricasw.camara.registro.api.RegistroController.GetById(System.Int32)">
+            <summary>
+            Exibe um registro de serviço através do id
+            </summary>
+            <returns>Retorna um registro de serviço</returns>
+            <response code="200">OK</response>
+        </member>
+        <member name="M:fabricasw.camara.registro.api.RegistroController.GetBySequence(fabricasw.camara.registro.api.RegistroVM)">
+            <summary>
+            Insere um novo registro de serviço e retorna a sequência do protocolo
+            </summary>
+            <param name="viewModel">Modelo de Registro de serviço</param>
+            <returns>Insere um novo registro de serviço e retorna a sequência do protocolo</returns>
+            <response code="200">OK</response>
+        </member>
+    </members>
+</doc>

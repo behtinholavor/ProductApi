@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>product.stock.api</name>
+    </assembly>
+    <members>
+        <member name="T:product.stock.api.StockController">
+            <summary>
+            Controlador da API de Estoque
+            </summary>
+        </member>
+        <member name="F:product.stock.api.StockController._service">
+            <summary>
+            Camada de Serviços de Registro
+            </summary>
+        </member>
+        <member name="M:product.stock.api.StockController.#ctor(product.stock.api.StockService)">
+            <summary>
+            Construtor padrão para iniciar a API
+            </summary>
+            <param name="service">Camada de Serviços de Registro</param>        
+        </member>
+        <member name="M:product.stock.api.StockController.InsertProduct(product.stock.api.ProductVM)">
+            <summary>
+            Inserir novo produto
+            </summary>
+            <param name="viewModel">>Modelo de Produto</param>
+            <returns>Insere um novo produto no estoque</returns>
+            <response code="200">Insere um novo produto no estoque</response>
+        </member>
+        <member name="M:product.stock.api.StockController.UpdateProduct(product.stock.api.ProductVM)">
+            <summary>
+            Atualizar um produto 
+            </summary>
+            <param name="viewModel">Modelo de Produto</param>
+            <returns>Atualiza os dados de um produto</returns>
+            <response code="200">Atualiza os dados de um produto</response>
+        </member>
+        <member name="M:product.stock.api.StockController.ListProduct">
+            <summary>
+            Listar todos os produtos do estoque
+            </summary>
+            <returns>Lista contendo todos os produtos do estoque</returns>
+            <response code="200">Lista contendo todos os produtos do estoque</response>
+        </member>
+        <member name="M:product.stock.api.StockController.SelectProduct(System.Int64)">
+            <summary>
+            Exibir produto pelo id
+            </summary>
+            <returns>Exibe um produto através do identificador</returns>
+            <response code="200">Exibe um produto através do identificador</response>
+        </member>
+        <member name="M:product.stock.api.StockController.DeleteProduct(System.Int32)">
+            <summary>
+            Remover produto pelo id
+            </summary>
+            <returns>Remove um produto através do identificador</returns>
+            <response code="200">Remove um produto através do identificador</response>
+        </member>
+        <member name="M:product.stock.api.StockController.InsertUser(product.stock.api.UserVM)">
+            <summary>
+            Inserir novo usuário
+            </summary>
+            <param name="user">>Modelo de Usuário</param>
+            <returns>Insere um novo usuário para autenticação</returns>
+            <response code="200">Insere um novo usuário para autenticação</response>
+        </member>
+        <member name="M:product.stock.api.StockController.LoginUser(product.stock.api.UserVM)">
+            <summary>
+            Realizar autenticação do usuário
+            </summary>
+            <param name="auth">>Modelo de Usuário</param>
+            <returns>Realiza a autenticação através do usuário</returns>
+            <response code="200">Realiza a autenticação através do usuário</response>
+        </member>
+    </members>
+</doc>

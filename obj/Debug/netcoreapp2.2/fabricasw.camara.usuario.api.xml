@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>fabricasw.camara.usuario.api</name>
+    </assembly>
+    <members>
+        <member name="M:fabricasw.camara.usuario.api.UsuarioController.#ctor(fabricasw.camara.usuario.api.AppDb)">
+            <summary>
+            Default constructor to initiate api 
+            </summary>
+            <param name="db">Injectable database connection</param>
+        </member>
+        <member name="M:fabricasw.camara.usuario.api.UsuarioController.GetAll">
+            <summary>
+            Lista todos os usuários
+            </summary>
+            <returns>Retorna todos os usuários</returns>
+            <response code="200">Retorna todos os usuários cadastrados</response>
+        </member>
+        <member name="M:fabricasw.camara.usuario.api.UsuarioController.GetOne(System.Int32)">
+            <summary>
+            Exibe um usuário através do id
+            </summary>
+            <returns>Retorna um usuário</returns>
+            <response code="200">Retorna um usuário cadastrado</response>
+        </member>
+        <member name="M:fabricasw.camara.usuario.api.UsuarioController.Post(fabricasw.camara.usuario.api.Usuarios)">
+            <summary>
+            Insere um novo usuário através de um objeto (body)
+            </summary>
+            <returns>Insere um novo usuário</returns>
+            <response code="200">Insere um novo usuário através de um objeto</response>
+        </member>
+        <member name="M:fabricasw.camara.usuario.api.UsuarioController.PutOne(System.Int32,fabricasw.camara.usuario.api.Usuarios)">
+            <summary>
+            Atualiza um usuário através de um objeto (body)
+            </summary>
+            <returns>Atualiza um usuário</returns>
+            <response code="200">Atualiza um usuário através de um objeto</response>
+        </member>
+        <member name="M:fabricasw.camara.usuario.api.UsuarioController.DeleteOne(System.Int32)">
+            <summary>
+            Reomve um usuário através do id
+            </summary>
+            <returns>Remove um usuário</returns>
+            <response code="200">Remove um usuário cadastrado</response>
+        </member>
+        <member name="M:fabricasw.camara.usuario.api.UsuarioController.DeleteAll">
+            <summary>
+            Remove todos os usuários
+            </summary>
+            <returns>Remove todos os usuários</returns>
+            <response code="200">Remove todos os usuários cadastrados</response>
+        </member>
+    </members>
+</doc>

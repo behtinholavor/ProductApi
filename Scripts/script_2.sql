@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS user; 
+
+CREATE TABLE user (
+  id INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,  
+  login VARCHAR(500) DEFAULT NULL,  
+  pass VARCHAR(500) DEFAULT NULL,    
+  token TEXT,  
+  validity DATETIME, 
+  CONSTRAINT pk_login PRIMARY KEY (id)  
+);
